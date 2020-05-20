@@ -4,6 +4,7 @@ const sum = require('../sum');
 
 describe('sum', () => {
   it('should sum up two number', () => {
-    expect(sum(1, 2)).to.equal(3);
+    // try to break the test to test github actions
+    expect(sum(1, 2)).to.equal(4);
   });
 });
