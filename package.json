@@ -1,0 +1,24 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ci": "echo \"Error: no test specified\" && exit 2",
+    "test": "mocha __tests__/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrischang/github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrischang/github-actions/issues"
+  },
+  "homepage": "https://github.com/chrischang/github-actions#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  }
+}
